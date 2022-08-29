@@ -11,7 +11,7 @@ form.addEventListener("submit", (event) => {
 
 
  if (event.currentTarget.email.value === "" || event.currentTarget.password.value === "") {
-    alert('Я, звичайно, дуже вибачаюся, але всі поля мають бути заповнені');
+    alert('Вибачте , але всі поля потрібно заповнити!');
   } 
   else {
     
