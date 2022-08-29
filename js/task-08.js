@@ -10,13 +10,13 @@ form.addEventListener("submit", (event) => {
   console.log(email.value, password.value);
 
 
- if (event.currentTarget.email.value === "" || event.currentTarget.password.value === "") {
+  if (event.currentTarget.email.value === "" || event.currentTarget.password.value === "") {
     alert('Вибачте , але всі поля потрібно заповнити!');
-  } 
+  }
   else {
-    
+
     console.log({ email: event.currentTarget.email.value, password: event.currentTarget.password.value, });
     event.target.reset();
   }
-    
+
 });
